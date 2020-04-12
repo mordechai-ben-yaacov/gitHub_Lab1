@@ -105,7 +105,13 @@ Next (considering all countries), plot the % of population over 65 vs. log of GD
   
   
 **Solution:** 
-  
+
+```{r}
+#loading the `eco_data`:
+eco_data <- read.csv(url("https://raw.githubusercontent.com/DataScienceHU/DataAnalysisR_2020/master/data/economic_data.csv"))
+
+```
+
 YOUR SOLUTION HERE.
 Use code blocks and markdown to clearly communicate your work.
 
